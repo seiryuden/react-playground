@@ -6,13 +6,14 @@ import HelloWorld from "./state-drills/HelloWorld";
 import Bomb from "./state-drills/Bomb";
 import RouletteGun from "./state-drills/RoulletteGun";
 
+
 ReactDom.render(
     <div>
         <App  /> 
         <HelloWorld/> 
         <Bomb />
         <RouletteGun bulletInChamber={7}/>
-
+        
     </div>, document.getElementById("root")
         
 );

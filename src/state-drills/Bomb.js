@@ -19,7 +19,7 @@ bombTicker = () =>{
         
     })
 
-    console.log(this.state.count)
+    //console.log(this.state.count)
 
     if(this.state.count % 2 !== 0){
         this.setState({
